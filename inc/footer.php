@@ -3,7 +3,8 @@
         <div class="footer-wrapper">
             <div class="row main-footer-row">
                 <div class="col-xl-3">
-                    <div class="left-sec-footer d-flex d-xl-block align-items-center flex-column text-center text-xl-start">
+                    <div
+                        class="left-sec-footer d-flex d-xl-block align-items-center flex-column text-center text-xl-start">
                         <figure>
                             <svg width="76" height="19" viewBox="0 0 76 19" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -25,171 +26,179 @@
                 <div class="col-xl-9">
                     <div class="row footer-link-wrapper">
                         <div class="p-0 col-12 col-sm-6 col-md-4 col-lg col-xl">
-                            <div class="footer-link d-flex flex-column">
-                                <ul class="m-0 p-0 d-flex flex-column footer-link-list">
-                                <span class="footer-link-head">For designers</span>
+                            <div class="footer-link d-flex flex-column align-items-center align-items-sm-start">
+                                <ul
+                                    class="m-0 p-0 d-flex flex-column footer-link-list align-items-center align-items-sm-start">
+                                    <span class="footer-link-head">For designers</span>
                                     <li>
-                                        <a href="#">Go Pro!</a>
+                                        <a class="d-block" href="#">Go Pro!</a>
                                     </li>
                                     <li>
-                                        <a href="#">Explore design work</a>
+                                        <a class="d-block" href="#">Explore design work</a>
                                     </li>
                                     <li>
-                                        <a href="#">Design blog</a>
+                                        <a class="d-block" href="#">Design blog</a>
                                     </li>
                                     <li>
-                                        <a href="#">Overtime podcast</a>
+                                        <a class="d-block" href="#">Overtime podcast</a>
                                     </li>
                                     <li>
-                                        <a href="#">Playoffs</a>
+                                        <a class="d-block" href="#">Playoffs</a>
                                     </li>
                                     <li>
-                                        <a href="#">Weekly Warm-Up</a>
+                                        <a class="d-block" href="#">Weekly Warm-Up</a>
                                     </li>
                                     <li>
-                                        <a href="#">Refer a Friend</a>
+                                        <a class="d-block" href="#">Refer a Friend</a>
                                     </li>
                                     <li>
-                                        <a href="#">Code of conduct</a>
+                                        <a class="d-block" href="#">Code of conduct</a>
                                     </li>
                                 </ul>
                             </div>
 
-                        </div>  
+                        </div>
                         <div class="p-0 col-12 col-sm-6 col-md-4 col-lg col-xl">
-                            <div class="footer-link d-flex flex-column">
-                                <ul class="m-0 p-0 d-flex flex-column footer-link-list">
-                                <span class="footer-link-head">Company</span>
+                            <div class="footer-link d-flex flex-column align-items-center align-items-sm-start">
+                                <ul
+                                    class="m-0 p-0 d-flex flex-column footer-link-list align-items-center align-items-sm-start">
+                                    <span class="footer-link-head">Company</span>
                                     <li>
-                                        <a href="#">Post a job opening</a>
+                                        <a class="d-block" href="#">Post a job opening</a>
                                     </li>
                                     <li>
-                                        <a href="#">Post a freelance project</a>
+                                        <a class="d-block" href="#">Post a freelance project</a>
                                     </li>
                                     <li>
-                                        <a href="#">search for designers</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="footer-link d-flex flex-column pt-3">
-                                <ul class="m-0 p-0 d-flex flex-column footer-link-list">
-                                <span class="footer-link-head">Brands</span>
-
-                                    <li>
-                                        <a href="#">Advertise with us</a>
+                                        <a class="d-block" href="#">search for designers</a>
                                     </li>
                                 </ul>
                             </div>
+                            <div class="footer-link d-flex flex-column align-items-center align-items-sm-start pt-3">
+                                <ul
+                                    class="m-0 p-0 d-flex flex-column footer-link-list align-items-center align-items-sm-start">
+                                    <span class="footer-link-head">Brands</span>
 
-                        </div>  
+                                    <li>
+                                        <a class="d-block" href="#">Advertise with us</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
                         <div class="p-0 col-12 col-sm-6 col-md-4 col-lg col-xl">
-                            <div class="footer-link d-flex flex-column">
-                                <ul class="m-0 p-0 d-flex flex-column footer-link-list">
-                                <span class="footer-link-head">Company</span>
+                            <div class="footer-link d-flex flex-column align-items-center align-items-sm-start">
+                                <ul
+                                    class="m-0 p-0 d-flex flex-column footer-link-list align-items-center align-items-sm-start">
+                                    <span class="footer-link-head">Company</span>
                                     <li>
-                                        <a href="#">About</a>
+                                        <a class="d-block" href="#">About</a>
                                     </li>
                                     <li>
-                                        <a href="#">Careers</a>
+                                        <a class="d-block" href="#">Careers</a>
                                     </li>
                                     <li>
-                                        <a href="#">Support</a>
+                                        <a class="d-block" href="#">Support</a>
                                     </li>
                                     <li>
-                                        <a href="#">Media kit</a>
+                                        <a class="d-block" href="#">Media kit</a>
                                     </li>
                                     <li>
-                                        <a href="#">Testimonials</a>
+                                        <a class="d-block" href="#">Testimonials</a>
                                     </li>
                                     <li>
-                                        <a href="#">API</a>
+                                        <a class="d-block" href="#">API</a>
                                     </li>
                                     <li>
-                                        <a href="#">Terms of service</a>
+                                        <a class="d-block" href="#">Terms of service</a>
                                     </li>
                                     <li>
-                                        <a href="#">Privacy Policy</a>
+                                        <a class="d-block" href="#">Privacy Policy</a>
                                     </li>
                                     <li>
-                                        <a href="#">Cookie Policy</a>
+                                        <a class="d-block" href="#">Cookie Policy</a>
                                     </li>
                                 </ul>
                             </div>
 
-                        </div>   
+                        </div>
                         <div class="p-0 col-12 col-sm-6 col-md-4 col-lg col-xl">
-                            <div class="footer-link d-flex flex-column">
-                                <ul class="m-0 p-0 d-flex flex-column footer-link-list">
-                                <span class="footer-link-head">Directories</span>
+                            <div class="footer-link d-flex flex-column align-items-center align-items-sm-start">
+                                <ul
+                                    class="m-0 p-0 d-flex flex-column footer-link-list align-items-center align-items-sm-start">
+                                    <span class="footer-link-head">Directories</span>
 
                                     <li>
-                                        <a href="#">Design jobs</a>
+                                        <a class="d-block" href="#">Design jobs</a>
                                     </li>
                                     <li>
-                                        <a href="#">Designers for hire</a>
+                                        <a class="d-block" href="#">Designers for hire</a>
                                     </li>
                                     <li>
-                                        <a href="#">Freelance designers for hire</a>
+                                        <a class="d-block" href="#">Freelance designers for hire</a>
                                     </li>
                                     <li>
-                                        <a href="#">Tags</a>
+                                        <a class="d-block" href="#">Tags</a>
                                     </li>
                                     <li>
-                                        <a href="#">Places</a>
+                                        <a class="d-block" href="#">Places</a>
                                     </li>
                                 </ul>
                             </div>
-                            <div class="footer-link d-flex flex-column pt-3">
-                                <ul class="m-0 p-0 d-flex flex-column footer-link-list">
-                                <span class="footer-link-head">Design assets</span>
+                            <div class="footer-link d-flex flex-column align-items-center align-items-sm-start pt-3">
+                                <ul
+                                    class="m-0 p-0 d-flex flex-column footer-link-list align-items-center align-items-sm-start">
+                                    <span class="footer-link-head">Design assets</span>
 
                                     <li>
-                                        <a href="#">Dribble Marketplace</a>
+                                        <a class="d-block" href="#">Dribble Marketplace</a>
                                     </li>
                                     <li>
-                                        <a href="#">Creative Market</a>
+                                        <a class="d-block" href="#">Creative Market</a>
                                     </li>
                                     <li>
-                                        <a href="#">Font Spring</a>
+                                        <a class="d-block" href="#">Font Spring</a>
                                     </li>
                                     <li>
-                                        <a href="#">Font Squirrel</a>
+                                        <a class="d-block" href="#">Font Squirrel</a>
                                     </li>
                                 </ul>
                             </div>
 
-                        </div>  
+                        </div>
                         <div class="p-0 col-12 col-sm-6 col-md-4 col-lg col-xl">
-                            <div class="footer-link d-flex flex-column">
-                                <ul class="m-0 p-0 d-flex flex-column footer-link-list">
-                                <span class="footer-link-head">Design Resources</span>
+                            <div class="footer-link d-flex flex-column align-items-center align-items-sm-start">
+                                <ul
+                                    class="m-0 p-0 d-flex flex-column footer-link-list align-items-center align-items-sm-start">
+                                    <span class="footer-link-head">Design Resources</span>
                                     <li>
-                                        <a href="#">Freelancing</a>
+                                        <a class="d-block" href="#">Freelancing</a>
                                     </li>
                                     <li>
-                                        <a href="#">Design Hiring</a>
+                                        <a class="d-block" href="#">Design Hiring</a>
                                     </li>
                                     <li>
-                                        <a href="#">Design Portfolio</a>
+                                        <a class="d-block" href="#">Design Portfolio</a>
                                     </li>
                                     <li>
-                                        <a href="#">Design Education</a>
+                                        <a class="d-block" href="#">Design Education</a>
                                     </li>
                                     <li>
-                                        <a href="#">Creative Process</a>
+                                        <a class="d-block" href="#">Creative Process</a>
                                     </li>
                                     <li>
-                                        <a href="#">Design Industry Trends</a>
+                                        <a class="d-block" href="#">Design Industry Trends</a>
                                     </li>
                                 </ul>
                             </div>
 
-                        </div>  
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom d-flex justify-content-between align-items-center">
+        <div
+            class="footer-bottom d-flex justify-content-between align-items-center flex-column flex-sm-row gap-3 gap-sm-0 text-center">
             <span class="left-footer-bottom">© 2023 Dribbble. All rights reserved.</span>
             <div class="right-footer-bottom d-flex align-items-center">
                 <p><span>20,891,020 </span>shots dribbbled</p>

@@ -45,7 +45,8 @@
         </div>
         <div class="search-tags-wrapper d-flex flex-column flex-lg-row align-items-center justify-content-center">
             <span>Trending searches</span>
-            <ul class="px-0 m-0 d-flex search-tags-list align-items-center justify-content-center justify-content-lg-start">
+            <ul
+                class="px-0 m-0 d-flex search-tags-list align-items-center justify-content-center justify-content-lg-start">
                 <li>
                     <a href="#">landing page</a>
                 </li>
@@ -82,7 +83,7 @@
         </div>
         <div class="product-list-wrapper">
             <div class="product-list row">
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-1.png" alt="product-1">
@@ -108,7 +109,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-2.png" alt="product-2">
@@ -134,7 +135,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-1.png" alt="product-1">
@@ -160,7 +161,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-2.png" alt="product-2">
@@ -186,7 +187,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-1.png" alt="product-2">
@@ -212,7 +213,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-2.png" alt="product-2">
@@ -238,7 +239,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-1.png" alt="product-2">
@@ -264,7 +265,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-2.png" alt="product-2">
@@ -290,7 +291,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-1.png" alt="product-2">
@@ -316,7 +317,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-2.png" alt="product-2">
@@ -342,7 +343,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-1.png" alt="product-2">
@@ -368,7 +369,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-2.png" alt="product-2">
@@ -394,7 +395,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-1.png" alt="product-2">
@@ -420,7 +421,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-2.png" alt="product-2">
@@ -446,7 +447,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-1.png" alt="product-2">
@@ -472,7 +473,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-2.png" alt="product-2">
@@ -498,7 +499,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-4 col-xl-3 p-0">
+                <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                     <div class="product-1">
                         <figure class="w-100 product-thumb">
                             <img src="images/product-1.png" alt="product-2">
@@ -527,7 +528,7 @@
 
             </div>
         </div>
-        <div class="show-more-wrapper d-flex justify-content-center align-items-center">
+        <div class="show-more-wrapper d-flex justify-content-center align-items-center flex-column flex-sm-row">
             <a href="#" class="btn-primary">Sign up to continue</a>
             <a href="#" class="btn-secondary">or sign in</a>
         </div>

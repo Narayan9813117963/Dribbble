@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Behance</title>
+    <title>Dribbble</title>
     <link rel="stylesheet" href="dist/css/vendor.css">
     <link rel="stylesheet" href="dist/css/theme.css">
 </head>
 
 <body>
-        <div class="offer-wrapper d-none d-lg-flex  align-items-center justify-content-center gap-1 position-relative">
-            <h5>📚 LAST CHANCE TO REGISTER FOR THE JOB GUARANTEED</h5>
-            <p class="offer-text"> 8-WEEK Product Design Career Preparation course!</p>
-            <a class="offer-btn" href="#"> Sign up now!</a>
-            <div class="close-btn d-flex align-items-center justify-content-center position-absolute">
-                <i class="bi bi-x"></i>
-            </div>
+    <div class="offer-wrapper d-none d-lg-flex  align-items-center justify-content-center gap-1 position-relative">
+        <h5>📚 LAST CHANCE TO REGISTER FOR THE JOB GUARANTEED</h5>
+        <p class="offer-text"> 8-WEEK Product Design Career Preparation course!</p>
+        <a class="offer-btn" href="#"> Sign up now!</a>
+        <div class="close-btn d-flex align-items-center justify-content-center position-absolute">
+            <i class="bi bi-x"></i>
         </div>
+    </div>
     <nav>
         <div class="header-wrapper">
             <div class="custom-container d-flex justify-content-between">
@@ -47,7 +47,7 @@
                 </div>
                 <div class="right-sec-nav d-flex justify-content-between align-items-center">
                     <div class="search-btn">
-                    <i class="bi bi-search"></i>
+                        <i class="bi bi-search"></i>
                     </div>
                     <a class="btn-secondary" href="#">Sign in</a>
                     <a class="btn-primary" href="#">Sign up</a>

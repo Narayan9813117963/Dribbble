@@ -1,63 +1,79 @@
-.footer{
+.footer {
     background-color: #FAFAFB;
-    .footer-wrapper{
+
+    .footer-wrapper {
         padding: 72px 0;
         padding-right: 100px;
         border-bottom: 1px solid #E7E7E9;
-        .left-sec-footer{
-            figure{
+
+        .left-sec-footer {
+            figure {
                 width: 104px;
                 height: 26px;
+
                 path {
                     fill: $primary-color;
                 }
             }
-            p{
+
+            p {
                 font-size: 16px;
                 line-height: 20px;
                 color: $global-black;
                 padding: 25px 0;
             }
-            .social-icons{
+
+            .social-icons {
                 gap: 18px;
-                a{
+
+                a {
                     color: #3D3D4E;
-                    i{
+
+                    i {
                         font-size: 18px;
                     }
                 }
             }
         }
-        .footer-link-wrapper{
-        padding-left: 60px;
-        gap: 40px;
-        .footer-link{
-            .footer-link-head{
-                font-family: $helveticaneue-medium-font;
-                font-size: 16px;
-            }
-            .footer-link-list{
-                gap: 20px;
-                a{
-                    font-size: 14px;
-                    color: #3D3D4E;
+
+        .footer-link-wrapper {
+            padding-left: 60px;
+            gap: 40px;
+
+            .footer-link {
+                .footer-link-head {
+                    font-family: $helveticaneue-medium-font;
+                    font-size: 16px;
+                }
+
+                .footer-link-list {
+                    gap: 20px;
+
+                    a {
+                        font-size: 14px;
+                        color: #3D3D4E;
+                    }
                 }
             }
         }
-        }
     }
-    .footer-bottom{
+
+    .footer-bottom {
         padding: 44px 0;
-        .left-footer-bottom{
+
+        .left-footer-bottom {
             font-size: 14px;
             color: #6E6D7A;
         }
-        .right-footer-bottom{
+
+        .right-footer-bottom {
             gap: 16px;
-            p{
+
+            p {
                 font-size: 14px;
                 color: #6E6D7A;
-                span{
+
+                span {
                     font-family: $helveticaneue-medium-font;
                     color: $global-black;
                 }
@@ -65,16 +81,30 @@
         }
     }
 }
+
 @media screen and (max-width: 1200px) {
-    .footer{
-        .footer-wrapper{
+    .footer {
+        .footer-wrapper {
             padding-right: 0;
-            .main-footer-row{
+
+            .main-footer-row {
                 gap: 36px;
             }
-            .footer-link-wrapper{
+
+            .footer-link-wrapper {
                 gap: unset;
                 row-gap: 36px;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer {
+        .footer-wrapper {
+            .footer-link-wrapper {
+                padding-left: 0;
             }
         }
 

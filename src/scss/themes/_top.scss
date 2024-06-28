@@ -10,11 +10,13 @@
             padding: 14px 0;
             gap: 14px;
             flex-wrap: wrap;
+
             li {
                 padding: 13px 0;
+
                 a {
                     padding: 16px 20px;
-                    background-color: #0000006e;
+                    background-color: $category-link-bg;
                     color: $global-white;
                     border-radius: 25px;
                     width: 16px;
@@ -59,7 +61,11 @@
             input {
                 width: 100%;
                 height: 100%;
-                font-size: 14px;
+                font-size: 16px;
+
+                &:focus {
+                    outline: none;
+                }
             }
         }
     }
@@ -71,13 +77,16 @@
         a {
             color: $global-white;
         }
-        span{
+
+        span {
             text-wrap: nowrap;
         }
+
         .search-tags-list {
             gap: 12px;
             padding: 5px 0;
             flex-wrap: wrap;
+
             a {
                 padding: 5px 16px;
                 border: 1px solid $global-white;
@@ -86,88 +95,116 @@
         }
     }
 }
-.product-wrapper{
-    .filter-wrapper{
+
+.product-wrapper {
+    .filter-wrapper {
         padding: 32px 0;
-        .popular-btn, .filter-btn{
+
+        .popular-btn,
+        .filter-btn {
             padding: 10px 16px;
-            border: 1px solid #E7E7E9;
+            border: 1px solid $filter-btn-border;
             border-radius: 8px;
-            gap: 25px;      
+            gap: 25px;
             cursor: pointer;
-            span{
+
+            span {
                 font-size: 14px;
                 text-transform: capitalize;
-                color: #6E6D7A;
-            }    
-            i{
-                color: #9E9EA7;
+                color: $black-75;
+            }
+
+            i {
+                color: $black-50;
             }
         }
     }
-    .product-list-wrapper{
-        .product-list{
+
+    .product-list-wrapper {
+        .product-list {
             row-gap: 36px;
-            .product-1{
+
+            .product-1 {
                 max-width: 297px;
+                width: 100%;
                 margin: auto;
-                .product-thumb{
+
+                .product-thumb {
                     border-radius: 8px;
                     overflow: hidden;
                 }
-                .author-views-wrapper{
+
+                .author-views-wrapper {
                     padding-top: 8px;
-                    .author{
+
+                    .author {
                         gap: 8px;
-                        .author-img{
+
+                        .author-img {
                             width: 24px;
                             height: 24px;
                             border-radius: 50%;
                             overflow: hidden;
-                            img{
+
+                            img {
                                 border-radius: 50%;
                             }
                         }
-                        .author-name{
+
+                        .author-name {
                             font-family: $helveticaneue-medium-font;
                             font-size: 14px;
                         }
-                        .author-batch{
+
+                        .author-batch {
                             font-size: 10px;
                             text-transform: uppercase;
                             padding: 2px 3px;
-                            background-color: #CCCCCC;
+                            background-color: $black-25;
                             font-family: $helveticaneue-bold-font;
                             font-weight: 700;
                             color: $global-white;
                             border-radius: 3px;
                         }
                     }
-                    .views-likes{
+
+                    .views-likes {
                         gap: 8px;
-                        .likes, .views{
+
+                        .likes,
+                        .views {
                             gap: 4px;
-                            i{
-                                color: #9E9EA7;
+
+                            i {
+                                color: $black-50;
                             }
-                            span{
+
+                            span {
                                 font-family: $helveticaneue-medium-font;
                                 font-size: 12px;
-                                color: #3D3D4E;
+                                color: $likes-text-color;
                             }
                         }
                     }
                 }
             }
-          
+
         }
     }
 }
-.show-more-wrapper{
+
+.show-more-wrapper {
     padding-top: 55px;
     gap: 63px;
     padding-bottom: 40px;
-    .btn-secondary{
+
+    .btn-secondary {
         color: $primary-color;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .show-more-wrapper {
+        gap: 36px;
     }
 }
