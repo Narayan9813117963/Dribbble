@@ -1,0 +1,9 @@
+// Define a mixin for buttons
+@mixin button($padding: 10px 15px, $border-radius: 8px) {
+    color: $global-white;
+    padding: $padding;
+    border-radius: $border-radius;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: $primary-color;
+}

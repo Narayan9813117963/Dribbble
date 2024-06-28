@@ -1,0 +1,43 @@
+.offer-wrapper{
+    padding: 16px 0;
+    background-color: $global-black;
+    .offer-text{
+        font-size: 13px;
+    }
+    .offer-btn{
+        font-size: 13px;
+        color: $primary-color;
+    }
+    .close-btn{
+        height: 20px;
+        width: 20px;
+        right: 28px;
+        top: 50%;
+        transform: translateY(-50%);
+        i{
+            font-size: 28px;
+            color: $global-white;
+        }
+    }
+}
+.header-wrapper{
+    padding: 16px 0;
+    .left-sec-nav{
+        gap: 32px;
+        figure{
+            width: 76px;
+            height: 30px;
+        }
+        .main-nav{
+            ul{
+                gap: 32px;
+                a{
+                    color: $global-black;
+                }
+            }
+        }
+    }
+    .right-sec-nav{
+        gap: 20px;
+    }
+}

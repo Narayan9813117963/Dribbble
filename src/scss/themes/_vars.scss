@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'HelveticaNeueMedium';
+    src: url('../../dist/css/fonts/HelveticaNeueMedium/HelveticaNeueMedium.woff') format('woff'),
+        url('../../dist/css/fonts/HelveticaNeueMedium/HelveticaNeueMedium.woff2') format('woff2'),
+        url('../../dist/css/fonts/HelveticaNeueMedium/HelveticaNeueMedium.eot'),
+        url('../../dist/css/fonts/HelveticaNeueMedium/HelveticaNeueMedium.eot?#iefix') format('embedded-opentype'),
+        url('../../dist/css/fonts/HelveticaNeueMedium/HelveticaNeueMedium.otf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-Roman';
+    src: url('../../dist/css/fonts/HelveticaNeue-Roman/HelveticaNeue-Roman.woff') format('woff'),
+        url('../../dist/css/fonts/HelveticaNeue-Roman/HelveticaNeue-Roman.woff2') format('woff2'),
+        url('../../dist/css/fonts/HelveticaNeue-Roman/HelveticaNeue-Roman.eot'),
+        url('../../dist/css/fonts/HelveticaNeue-Roman/HelveticaNeue-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../../dist/css/fonts/HelveticaNeue-Roman/HelveticaNeue-Roman.otf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueBold';
+    src: url('../../dist/css/fonts/HelveticaNeueBold/HelveticaNeueBold.woff') format('woff'),
+        url('../../dist/css/fonts/HelveticaNeueBold/HelveticaNeueBold.woff2') format('woff2'),
+        url('../../dist/css/fonts/HelveticaNeueBold/HelveticaNeueBold.svg#HelveticaNeueBold') format('svg'),
+        url('../../dist/css/fonts/HelveticaNeueBold/HelveticaNeueBold.eot'),
+        url('../../dist/css/fonts/HelveticaNeueBold/HelveticaNeueBold.eot?#iefix') format('embedded-opentype'),
+        url('../../dist/css/fonts/HelveticaNeueBold/HelveticaNeueBold.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+$global-white: #fff;
+$global-black: #0D0C22;
+$black-75: #6E6D7A;
+$black-50: #9E9EA7;
+$black-25: #CCCCCC;
+$primary-color: #EA4C89;
+$helveticaneue-medium-font: "HelveticaNeueMedium";
+$helveticaneue-regular-font: "HelveticaNeue-Roman";
+$helveticaneue-bold-font: "HelveticaNeueBold";
+$h1-font-size: 32px;
+$h5-font-size: 13px;
+$paragraph-font-size: 16px;
+$link-font-size: 14px;
