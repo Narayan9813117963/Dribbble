@@ -14,7 +14,8 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build-css": "node-sass src/scss/theme.scss -o dist/css/ && node-sass src/scss/vendor.scss -o dist/css/",
-		"watch-css": "nodemon -e scss -x \"npm run build-css\""
+		"watch-css": "nodemon -e scss -x \"npm run build-css\"",
+		"build": "gulp build"
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.13",
