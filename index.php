@@ -38,11 +38,11 @@
                 home to the world’s best design and creative professionals.</p>
         </div>
         <div class="search-input d-flex">
-            <form class="m-auto d-flex align-items-center"  action="search">
-                <a href="#" class="d-flex gap-2 align-items-center">
+            <form class="m-auto d-flex align-items-center gap-2"  action="search">
+                <div class="search-icon d-flex align-items-center">
                 <i class="bi bi-search"></i>
-                <input type="text" placeholder="Search...">
-                </a>
+                </div>
+                <input class="w-100" type="text" placeholder="Search...">
             </form>
         </div>
         <div class="search-tags-wrapper d-flex flex-column flex-lg-row align-items-center justify-content-center">

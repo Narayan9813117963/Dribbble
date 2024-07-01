@@ -15,7 +15,7 @@
         <p class="offer-text"> 8-WEEK Product Design Career Preparation course!</p>
         <a class="offer-btn" href="#"> Sign up now!</a>
         <div class="close-btn d-flex align-items-center justify-content-center position-absolute">
-            <i class="bi bi-x"></i>
+            <a href="#"><i class="bi bi-x"></i></a>
         </div>
     </div>
     <nav>

@@ -114,11 +114,13 @@ input {
       padding: 13px 0; }
       .banner .categories-wrapper ul li a {
         padding: 16px 20px;
-        background-color: #0000006e;
+        background-color: #0000004a;
         color: #fff;
         border-radius: 25px;
         width: 16px;
         height: 10px; }
+        .banner .categories-wrapper ul li a:hover {
+          background-color: #00000099; }
       .banner .categories-wrapper ul li.active a {
         background-color: #fff;
         color: #0D0C22; }
@@ -136,13 +138,17 @@ input {
       border-radius: 30px;
       overflow: hidden;
       background-color: #fff;
-      padding: 0 20px; }
-      .banner .search-input form i {
-        font-size: 16px; }
+      padding: 0 20px;
+      cursor: pointer; }
+      .banner .search-input form .search-icon {
+        width: 24px;
+        height: 24px; }
+        .banner .search-input form .search-icon i {
+          font-size: 20px; }
       .banner .search-input form input {
-        width: 100%;
-        height: 100%;
-        font-size: 16px; }
+        font-size: 16px;
+        padding: 10px 0;
+        background-color: transparent; }
         .banner .search-input form input:focus {
           outline: none; }
   .banner .search-tags-wrapper {
@@ -278,6 +284,12 @@ input {
         color: #0D0C22; }
   .header-wrapper .right-sec-nav {
     gap: 20px; }
+    .header-wrapper .right-sec-nav .search-btn {
+      width: 24px;
+      height: 24px;
+      cursor: pointer; }
+      .header-wrapper .right-sec-nav .search-btn i {
+        font-size: 20px; }
 
 .footer {
   background-color: #FAFAFB;

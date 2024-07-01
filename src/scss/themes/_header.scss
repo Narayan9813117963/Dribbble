@@ -49,5 +49,13 @@
 
     .right-sec-nav {
         gap: 20px;
+        .search-btn{
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            i{
+                font-size: 20px;
+            }
+        }
     }
 }
