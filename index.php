@@ -38,9 +38,11 @@
                 home to the world’s best design and creative professionals.</p>
         </div>
         <div class="search-input d-flex">
-            <form class="m-auto d-flex gap-2 align-items-center" action="search">
+            <form class="m-auto d-flex align-items-center"  action="search">
+                <a href="#" class="d-flex gap-2 align-items-center">
                 <i class="bi bi-search"></i>
                 <input type="text" placeholder="Search...">
+                </a>
             </form>
         </div>
         <div class="search-tags-wrapper d-flex flex-column flex-lg-row align-items-center justify-content-center">
@@ -73,8 +75,15 @@
     <div class="custom-container-md">
         <div class="filter-wrapper d-flex align-items-center justify-content-between">
             <div class="popular-btn d-flex align-items-center">
-                <span>popular</span>
-                <i class="bi bi-chevron-down"></i>
+            <form action="/action_page.php">
+            <select name="category" id="category">
+                <option value="popular">Popular <i class="bi bi-chevron-down"></i></option>
+                <option value="trending">trending <i class="bi bi-chevron-down"></i></option>
+                <option value="top-rated">top rated <i class="bi bi-chevron-down"></i></option>
+                <option value="best-seller">best seller <i class="bi bi-chevron-down"></i></option>
+            </select>
+            </form>
+                
             </div>
             <div class="filter-btn d-flex align-items-center">
                 <i class="bi bi-filter"></i>
@@ -94,11 +103,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -120,11 +129,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -146,11 +155,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -172,11 +181,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -198,11 +207,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -224,11 +233,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -250,11 +259,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -276,11 +285,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -302,11 +311,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -328,11 +337,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -354,11 +363,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -380,11 +389,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -406,11 +415,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -432,11 +441,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -458,11 +467,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -484,11 +493,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">
@@ -510,11 +519,11 @@
                                     <img src="images/author-1.png" alt="author-1">
                                 </figure>
                                 <h6 class="m-0 author-name">Zouri Miminoshvili</h6>
-                                <span class="author-batch">PRO</span>
+                                <a href="#" class="author-batch">PRO</a>
                             </div>
                             <div class="views-likes d-flex align-items-center">
                                 <div class="likes d-flex align-items-center">
-                                    <i class="bi bi-heart-fill"></i>
+                                    <a href="#"><i class="bi bi-heart-fill"></i></a>
                                     <span>70</span>
                                 </div>
                                 <div class="views d-flex align-items-center">

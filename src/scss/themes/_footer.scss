@@ -1,12 +1,13 @@
 .footer {
-    background-color: #FAFAFB;
+    background-color: $footer-bg;
+    padding: 72px 0;
 
     .footer-wrapper {
-        padding: 72px 0;
-        padding-right: 100px;
-        border-bottom: 1px solid #E7E7E9;
-
+        padding-bottom: 72px;
+        border-bottom: 1px solid $filter-btn-border;
         .left-sec-footer {
+            max-width:250px;
+            width: 100%;
             figure {
                 width: 104px;
                 height: 26px;
@@ -27,20 +28,20 @@
                 gap: 18px;
 
                 a {
-                    color: #3D3D4E;
+                    color: $likes-text-color;
 
                     i {
-                        font-size: 18px;
+                        font-size: 24px;
                     }
                 }
             }
         }
 
         .footer-link-wrapper {
-            padding-left: 60px;
-            gap: 40px;
-
             .footer-link {
+                max-width: 150px;
+                width: 100%;
+
                 .footer-link-head {
                     font-family: $helveticaneue-medium-font;
                     font-size: 16px;
@@ -51,7 +52,7 @@
 
                     a {
                         font-size: 14px;
-                        color: #3D3D4E;
+                        color: $likes-text-color;
                     }
                 }
             }
@@ -63,7 +64,7 @@
 
         .left-footer-bottom {
             font-size: 14px;
-            color: #6E6D7A;
+            color: $black-75;
         }
 
         .right-footer-bottom {
@@ -71,7 +72,7 @@
 
             p {
                 font-size: 14px;
-                color: #6E6D7A;
+                color: $black-75;
 
                 span {
                     font-family: $helveticaneue-medium-font;
@@ -84,27 +85,20 @@
 
 @media screen and (max-width: 1200px) {
     .footer {
-        .footer-wrapper {
-            padding-right: 0;
-
-            .main-footer-row {
-                gap: 36px;
-            }
-
-            .footer-link-wrapper {
-                gap: unset;
-                row-gap: 36px;
-            }
+        .main-footer-row {
+            gap: 80px;
         }
-
     }
 }
-
 @media screen and (max-width: 576px) {
     .footer {
         .footer-wrapper {
             .footer-link-wrapper {
-                padding-left: 0;
+                .footer-link{
+                max-width: unset;
+
+                }
+
             }
         }
 

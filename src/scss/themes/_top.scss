@@ -108,6 +108,17 @@
             gap: 25px;
             cursor: pointer;
 
+            select {
+                font-size: 14px;
+                text-transform: capitalize;
+                color: $black-75;
+                border: none;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
             span {
                 font-size: 14px;
                 text-transform: capitalize;
@@ -165,6 +176,10 @@
                             font-weight: 700;
                             color: $global-white;
                             border-radius: 3px;
+
+                            &:hover {
+                                background-color: $global-black;
+                            }
                         }
                     }
 

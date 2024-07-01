@@ -4,7 +4,7 @@
             <div class="row main-footer-row">
                 <div class="col-xl-3">
                     <div
-                        class="left-sec-footer d-flex d-xl-block align-items-center flex-column text-center text-xl-start">
+                        class="left-sec-footer mx-auto mx-xl-0 d-flex d-xl-block align-items-center flex-column text-center text-xl-start">
                         <figure>
                             <svg width="76" height="19" viewBox="0 0 76 19" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +25,7 @@
                 </div>
                 <div class="col-xl-9">
                     <div class="row footer-link-wrapper">
-                        <div class="p-0 col-12 col-sm-6 col-md-4 col-lg col-xl">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg col-xl">
                             <div class="footer-link d-flex flex-column align-items-center align-items-sm-start">
                                 <ul
                                     class="m-0 p-0 d-flex flex-column footer-link-list align-items-center align-items-sm-start">
@@ -58,8 +58,8 @@
                             </div>
 
                         </div>
-                        <div class="p-0 col-12 col-sm-6 col-md-4 col-lg col-xl">
-                            <div class="footer-link d-flex flex-column align-items-center align-items-sm-start">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg col-xl">
+                            <div class="footer-link d-flex flex-column align-items-center align-items-sm-start my-3 my-md-0">
                                 <ul
                                     class="m-0 p-0 d-flex flex-column footer-link-list align-items-center align-items-sm-start">
                                     <span class="footer-link-head">Company</span>
@@ -74,7 +74,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="footer-link d-flex flex-column align-items-center align-items-sm-start pt-3">
+                            <div class="footer-link d-flex flex-column align-items-center align-items-sm-start my-3">
                                 <ul
                                     class="m-0 p-0 d-flex flex-column footer-link-list align-items-center align-items-sm-start">
                                     <span class="footer-link-head">Brands</span>
@@ -86,8 +86,8 @@
                             </div>
 
                         </div>
-                        <div class="p-0 col-12 col-sm-6 col-md-4 col-lg col-xl">
-                            <div class="footer-link d-flex flex-column align-items-center align-items-sm-start">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg col-xl">
+                            <div class="footer-link d-flex flex-column align-items-center align-items-sm-start my-3 my-md-0">
                                 <ul
                                     class="m-0 p-0 d-flex flex-column footer-link-list align-items-center align-items-sm-start">
                                     <span class="footer-link-head">Company</span>
@@ -122,7 +122,7 @@
                             </div>
 
                         </div>
-                        <div class="p-0 col-12 col-sm-6 col-md-4 col-lg col-xl">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg col-xl">
                             <div class="footer-link d-flex flex-column align-items-center align-items-sm-start">
                                 <ul
                                     class="m-0 p-0 d-flex flex-column footer-link-list align-items-center align-items-sm-start">
@@ -145,7 +145,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="footer-link d-flex flex-column align-items-center align-items-sm-start pt-3">
+                            <div class="footer-link d-flex flex-column align-items-center align-items-sm-start my-3">
                                 <ul
                                     class="m-0 p-0 d-flex flex-column footer-link-list align-items-center align-items-sm-start">
                                     <span class="footer-link-head">Design assets</span>
@@ -166,7 +166,7 @@
                             </div>
 
                         </div>
-                        <div class="p-0 col-12 col-sm-6 col-md-4 col-lg col-xl">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg col-xl">
                             <div class="footer-link d-flex flex-column align-items-center align-items-sm-start">
                                 <ul
                                     class="m-0 p-0 d-flex flex-column footer-link-list align-items-center align-items-sm-start">
